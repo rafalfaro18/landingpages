@@ -31,3 +31,15 @@ nav.navbar.navbar-default {
  	display: flex;
  	align-items: center;
 }
+
+h1{
+	-webkit-animation-delay: 1s !important;
+	-moz-animation-delay: 1s !important;
+	-o-animation-delay: 1s !important;
+	-ms-animation-delay: 1s !important;
+
+	-webkit-animation-duration: 1s !important;
+	-moz-animation-duration: 1s !important;
+	-o-animation-duration: 1s !important;
+	-ms-animation-duration: 1s !important;	
+}
