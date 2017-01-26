@@ -63,3 +63,32 @@ h1{
     margin-left: 10%;
     margin-right: 10%;
 }
+
+nav div.navbar-header a, nav ul.navbar-right > li > a {
+    color: #fff !important;
+    text-transform: uppercase;
+}
+
+.pipes {
+  color:white;
+  margin-top:14px;
+}
+
+.navbar-nav {position: relative; }
+
+li.dropdown {position: static;}
+
+.dropdown-menu {width: 100%;}
+
+.dropdown-menu > li {display: inline-block;}
+
+ul.dropdown-menu {
+    background: none;
+    border: none;
+    box-shadow: none;
+}
+
+.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover, .dropdown-menu>li>a:focus, .dropdown-menu>li>a:hover {
+    background-color: transparent !important;
+    text-decoration: underline;
+}
