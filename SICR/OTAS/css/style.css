@@ -6,3 +6,14 @@ body{
     min-height: 100vh;
     background-position: center center;
 }
+
+nav.navbar.navbar-default {
+    position: fixed;
+    z-index: 20;
+    width: 100%;
+    top: 0;
+}
+
+.main-content {
+    margin-top: 50px;/*alto del menu nav*/
+}
