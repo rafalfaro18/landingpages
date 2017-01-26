@@ -18,5 +18,16 @@ nav.navbar.navbar-default {
 }
 
 .main-content {
-    margin-top: 170px;/*alto del menu nav +20*/
+    /*margin-top: 170px;*//*alto del menu nav +20*/
+}
+
+.main-content h1 {
+	color: #fff;
+}
+
+.vertical-center {
+ 	min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
+ 	min-height: 100vh; /* These two lines are counted as one :-)       */
+ 	display: flex;
+ 	align-items: center;
 }
