@@ -71,7 +71,7 @@ nav div.navbar-header a, nav ul.navbar-right > li > a {
 
 .pipes {
   color:white;
-  margin-top:14px;
+  /*margin-top:14px;*/
 }
 
 .navbar-nav {position: relative; }
@@ -99,7 +99,7 @@ ul.dropdown-menu {
     text-decoration: underline;
 }
 
-ul.dropdown-menu, ul.nav {
+ul.dropdown-menu, ul.nav, .navbar-default .navbar-nav>li>a {
     padding-bottom: 0;
     padding-top: 0;
     margin-top: 0;
