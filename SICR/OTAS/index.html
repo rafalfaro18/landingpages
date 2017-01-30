@@ -37,11 +37,27 @@
           <!-- Collect the nav links, forms, and other content for toggling -->
           <div class="collapse navbar-collapse navbar-ex1-collapse">
             <ul class="nav navbar-nav navbar-right">
-              <li class="dropdown">
+              <li class="dropdown has-sub">
                 <a href="#" class="dropdown-toggle" data-toggle="dropdown">Vacation Rentals</a>
                 <ul class="dropdown-menu">
-                  <li><a href="#">Action</a></li>
-                  <li><a href="#">Another action</a></li>
+                  <li class="dropdown has-sub">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Action</a>
+                    <ul class="dropdown-menu">
+                      <li><a href="#">Action</a></li>
+                      <li><a href="#">Another action</a></li>
+                      <li><a href="#">Something else here</a></li>
+                      <li><a href="#">Separated link</a></li>
+                    </ul>
+                  </li>
+                  <li class="dropdown has-sub">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Another Action</a>
+                    <ul class="dropdown-menu">
+                      <li><a href="#">Action</a></li>
+                      <li><a href="#">Another action</a></li>
+                      <li><a href="#">Something else here</a></li>
+                      <li><a href="#">Separated link</a></li>
+                    </ul>
+                  </li>
                   <li><a href="#">Something else here</a></li>
                   <li><a href="#">Separated link</a></li>
                 </ul>
@@ -51,7 +67,23 @@
               <li class="pipes">|</li>
               <li><a href="#">Property Management</a></li>
               <li class="pipes">|</li>
-              <li><a href="#">Real Estate</a></li>
+              <li class="dropdown has-sub">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Real Estate</a>
+                <ul class="dropdown-menu">
+                  <li class="dropdown has-sub">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Action</a>
+                    <ul class="dropdown-menu">
+                      <li><a href="#">Action</a></li>
+                      <li><a href="#">Another action</a></li>
+                      <li><a href="#">Something else here</a></li>
+                      <li><a href="#">Separated link</a></li>
+                    </ul>
+                  </li>
+                  <li><a href="#">Another action</a></li>
+                  <li><a href="#">Something else here</a></li>
+                  <li><a href="#">Separated link</a></li>
+                </ul>
+              </li>
             </ul>
           </div><!-- /.navbar-collapse -->
         </div>
@@ -71,14 +103,14 @@
       <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
       <!-- Latest compiled and minified JavaScript -->
-      <script>
+     <script>
         $(function() {
             $(".dropdown").hover(
                 function(){ $(this).addClass('open') },
                 function(){ $(this).removeClass('open') }
             );
         });
-      </script>
+      </script> 
       <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
     </footer>
   </body>
