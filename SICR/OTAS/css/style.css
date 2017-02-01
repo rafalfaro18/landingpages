@@ -128,6 +128,16 @@ ul.dropdown-menu, ul.nav, .navbar-default .navbar-nav>li>a {
   width: auto;
 }
 
+nav .menu-uno .navbar-right, nav .menu-dos ul.navbar-right {
+    font-size: large;
+}
+
+.menu-dos ul {
+    margin-top: 30px;
+}
+.menu-uno ul {
+    margin-top: 30px;
+}
 /***********Media Queries************/
 
 @media only screen and (max-width: 479px) { 
@@ -154,6 +164,16 @@ ul.dropdown-menu, ul.nav, .navbar-default .navbar-nav>li>a {
 	.navbar-brand>img{
 		padding: 0;
 	}
+	nav .menu-uno .navbar-right, nav .menu-dos ul.navbar-right {
+	    font-size: inherit;
+	}
+	.menu-dos ul {
+	    margin-top: 0;
+	}
+	.menu-uno ul {
+	    margin-top: 0;
+	}
+
 }
 
 @media only screen and (min-width: 480px) and (max-width: 767px) { 
@@ -181,6 +201,15 @@ ul.dropdown-menu, ul.nav, .navbar-default .navbar-nav>li>a {
 	.navbar-brand>img{
 		padding: 0;
 	}
+	nav .menu-uno .navbar-right, nav .menu-dos ul.navbar-right {
+	    font-size: inherit;
+	}
+	.menu-dos ul {
+	    margin-top: 0;
+	}
+	.menu-uno ul {
+	    margin-top: 0;
+	}
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1232px) { 
@@ -193,6 +222,15 @@ ul.dropdown-menu, ul.nav, .navbar-default .navbar-nav>li>a {
 	}
 	.navbar-brand>img{
 		padding: 0;
+	}
+	nav .menu-uno .navbar-right, nav .menu-dos ul.navbar-right {
+	    font-size: inherit;
+	}
+	.menu-dos ul {
+	    margin-top: 20px;
+	}
+	.menu-uno ul {
+	    margin-top: 20px;
 	}
 }
 
