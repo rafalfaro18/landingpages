@@ -117,6 +117,16 @@ ul.dropdown-menu, ul.nav, .navbar-default .navbar-nav>li>a {
     background-color: #ddd;
 }
 
+.navbar-brand {
+  padding: 0px;
+  height: 150px;
+}
+.navbar-brand>img {
+  height: 100%;
+  /*padding: 15px;*/
+  width: auto;
+}
+
 /***********Media Queries************/
 
 @media only screen and (max-width: 479px) { 
@@ -134,7 +144,13 @@ ul.dropdown-menu, ul.nav, .navbar-default .navbar-nav>li>a {
 	    letter-spacing: 2px;
 	}
 	nav.navbar.navbar-default {
-	    min-height: 55px;
+	    min-height: 75px;
+	}
+	.navbar-brand {
+	  height: 75px;
+	}
+	.navbar-brand>img{
+		padding: 0;
 	}
 }
 
@@ -154,7 +170,13 @@ ul.dropdown-menu, ul.nav, .navbar-default .navbar-nav>li>a {
 	}
 
 	nav.navbar.navbar-default {
-	    min-height: 75px;
+	    min-height: 100px;
+	}
+	.navbar-brand {
+	  height: 100px;
+	}
+	.navbar-brand>img{
+		padding: 0;
 	}
 }
 
@@ -162,6 +184,12 @@ ul.dropdown-menu, ul.nav, .navbar-default .navbar-nav>li>a {
 	/*Tablets y laptops*/
 	nav.navbar.navbar-default {
 	    min-height: 120px;
+	}
+	.navbar-brand {
+	  height: 120px;
+	}
+	.navbar-brand>img{
+		padding: 0;
 	}
 }
 
