@@ -19,7 +19,7 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
   </head>
-  <body>
+  <body onload="detect_mobile();">
     <header>
       <nav class="navbar navbar-default" role="navigation">
         <div class="container-fluid">
@@ -39,11 +39,11 @@
             <div class="menu-uno">
               <ul class="nav navbar-nav navbar-right">
                 <li><a href="#">Vacation Rentals</a></li>
-                <li class="pipes">|</li>
+                <li style="display: none" id="pipe1" class="pipes">|</li>
                 <li><a href="#">Fishing &amp; Tours</a></li>
-                <li class="pipes">|</li>
+                <li style="display: none" id="pipe2" class="pipes">|</li>
                 <li><a href="#">Property Management</a></li>
-                <li class="pipes">|</li>
+                <li style="display: none" id="pipe3" class="pipes">|</li>
                 <li><a href="#">Real Estate</a></li>
               </ul>
             </div>
@@ -84,6 +84,7 @@
             );
         });
       </script> 
+      <script src="js/main.js"></script>
       <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
     </footer>
   </body>

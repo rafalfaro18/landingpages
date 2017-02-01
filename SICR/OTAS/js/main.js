@@ -21,4 +21,4 @@ function doOnOrientationChange()
   window.addEventListener('orientationchange', doOnOrientationChange);
 
   // Initial execution if needed
-  doOnOrientationChange();
+  //doOnOrientationChange();

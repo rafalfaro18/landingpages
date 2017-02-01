@@ -76,7 +76,7 @@ nav .menu-dos ul.navbar-right > li > a {
 
 .pipes {
   color:#fcb526;
-  display: none;
+  /*display: none;*/
 }
 
 .navbar-nav {position: relative; }
@@ -136,9 +136,6 @@ ul.dropdown-menu, ul.nav, .navbar-default .navbar-nav>li>a {
 	nav.navbar.navbar-default {
 	    min-height: 55px;
 	}
-	nav .in li.pipes {
-	    display: none;
-	}
 }
 
 @media only screen and (min-width: 480px) and (max-width: 767px) { 
@@ -159,9 +156,6 @@ ul.dropdown-menu, ul.nav, .navbar-default .navbar-nav>li>a {
 	nav.navbar.navbar-default {
 	    min-height: 75px;
 	}
-	nav .in li.pipes {
-	    display: none;
-	}
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1232px) { 
@@ -169,7 +163,7 @@ ul.dropdown-menu, ul.nav, .navbar-default .navbar-nav>li>a {
 	nav.navbar.navbar-default {
 	    min-height: 120px;
 	}
-	nav .in li.pipes {
-	    display: inherit;
-	}
 }
+
+
+
