@@ -69,9 +69,13 @@ nav div.navbar-header a, nav ul.navbar-right > li > a {
     text-transform: uppercase;
 }
 
+nav .menu-dos ul.navbar-right > li > a {
+    color: #fcb526 !important;
+    text-transform: inherit !important;
+}
+
 .pipes {
-  color:white;
-  /*margin-top:14px;*/
+  color:#fcb526;
 }
 
 .navbar-nav {position: relative; }
@@ -125,6 +129,9 @@ ul.dropdown-menu, ul.nav, .navbar-default .navbar-nav>li>a {
 	nav.navbar.navbar-default {
 	    min-height: 55px;
 	}
+	nav .in li.pipes {
+	    display: none;
+	}
 }
 
 @media only screen and (min-width: 480px) and (max-width: 767px) { 
@@ -144,6 +151,9 @@ ul.dropdown-menu, ul.nav, .navbar-default .navbar-nav>li>a {
 
 	nav.navbar.navbar-default {
 	    min-height: 75px;
+	}
+	nav .in li.pipes {
+	    display: none;
 	}
 }
 
