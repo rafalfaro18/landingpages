@@ -6,6 +6,15 @@ function detect_mobile() {
 	}
 }
 
+function detect_4k() {
+	if(window.innerWidth >= 1584) {
+		document.getElementById('spacing1').innerHTML='<br>';
+	} else{
+		document.getElementById('spacing1').innerHTML='';
+	}
+}
+
+
 function doOnOrientationChange()
   {
     switch(window.orientation) 
@@ -13,9 +22,11 @@ function doOnOrientationChange()
       case -90:
       case 90:
         detect_mobile();
+        detect_4k();
         break; 
       default:
         detect_mobile();
+        detect_4k();
         break; 
     }
   }
@@ -33,4 +44,9 @@ var addEvent = function(object, type, callback) {
     }
 };
 
-addEvent(window, "resize", detect_mobile);
+function detect_both(){
+	detect_mobile();
+	detect_4k();
+}
+
+addEvent(window, "resize", detect_both);
