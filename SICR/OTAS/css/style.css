@@ -13,7 +13,7 @@ nav.navbar.navbar-default {
     width: 100%;
     top: 0;
     min-height: 150px;
-    background-color: rgba(193, 22, 22, 0.4);
+    background-color: rgba(113, 20, 46, 0.85);
     border-color: transparent;
 }
 
@@ -45,7 +45,8 @@ h1{
 }
 
 .main-content h1 > p:nth-child(1) {
-    font-size: 100px;
+    font-size: 115px;
+    font-stretch: extra-condensed;
 }
 
 .main-content h1 > p:nth-child(2) {
@@ -133,6 +134,7 @@ ul.dropdown-menu, ul.nav, .navbar-default .navbar-nav>li>a {
 	/*Teléfonos Portrait*/ 
 	.main-content h1 > p:nth-child(1) {
 	    font-size: 55px;
+	    font-stretch: extra-condensed;
 	}
 	.main-content h1 > p:nth-child(2) {
 	    font-size: 30px;
@@ -158,6 +160,7 @@ ul.dropdown-menu, ul.nav, .navbar-default .navbar-nav>li>a {
 	/*Teléfonos Landscape*/ 
 	.main-content h1 > p:nth-child(1) {
 	    font-size: 75px;
+	    font-stretch: extra-condensed;
 	}
 
 	.main-content h1 > p:nth-child(2) {
