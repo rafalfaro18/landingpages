@@ -122,6 +122,9 @@ ul.dropdown-menu, ul.nav, .navbar-default .navbar-nav>li>a {
 	    font-size: 10px;
 	    letter-spacing: 2px;
 	}
+	nav.navbar.navbar-default {
+	    min-height: 55px;
+	}
 }
 
 @media only screen and (min-width: 480px) and (max-width: 767px) { 
@@ -138,9 +141,15 @@ ul.dropdown-menu, ul.nav, .navbar-default .navbar-nav>li>a {
 	    font-size: 10px;
 	    /*letter-spacing: 4px;*/
 	}
+
+	nav.navbar.navbar-default {
+	    min-height: 75px;
+	}
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1232px) { 
 	/*Tablets y laptops*/
-
+	nav.navbar.navbar-default {
+	    min-height: 120px;
+	}
 }
