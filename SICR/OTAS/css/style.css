@@ -105,3 +105,42 @@ ul.dropdown-menu, ul.nav, .navbar-default .navbar-nav>li>a {
     margin-top: 0;
     margin-bottom: 0;
 }
+
+/***********Media Queries************/
+
+@media only screen and (max-width: 479px) { 
+	/*Teléfonos Portrait*/ 
+	.main-content h1 > p:nth-child(1) {
+	    font-size: 55px;
+	}
+	.main-content h1 > p:nth-child(2) {
+	    font-size: 30px;
+	    font-weight: 100;
+	    font-stretch: extra-condensed;
+	}
+	.main-content h1 > hr+p {
+	    font-size: 10px;
+	    letter-spacing: 2px;
+	}
+}
+
+@media only screen and (min-width: 480px) and (max-width: 767px) { 
+	/*Teléfonos Landscape*/ 
+	.main-content h1 > p:nth-child(1) {
+	    font-size: 75px;
+	}
+
+	.main-content h1 > p:nth-child(2) {
+	    font-size: 30px;
+	}
+
+	.main-content h1 > hr+p {
+	    font-size: 10px;
+	    /*letter-spacing: 4px;*/
+	}
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1232px) { 
+	/*Tablets y laptops*/
+
+}
