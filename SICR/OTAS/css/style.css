@@ -139,7 +139,7 @@ footer .copyright {
     bottom: 0;
     float: right;
     right: 0;
-    color: rgba(255, 255, 255, 0.44);
+    color: rgba(255, 255, 255, 0.8);
     margin-right: 30px;
     margin-bottom: 20px;
 }
@@ -148,6 +148,11 @@ footer .copyright {
   color:#fcb526 !important;
   /*display: none;*/
 }
+footer .copyright {
+	font-size: xx-large;
+}
+
+
 /***********Media Queries************/
 
 @media only screen and (max-width: 479px) { 
@@ -182,6 +187,9 @@ footer .copyright {
 	}
 	.menu-uno ul {
 	    margin-top: 0;
+	}
+	footer .copyright {
+	    font-size: medium;
 	}
 
 }
@@ -220,6 +228,9 @@ footer .copyright {
 	.menu-uno ul {
 	    margin-top: 0;
 	}
+	footer .copyright {
+	    font-size: initial;
+	}
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1232px) { 
@@ -242,6 +253,9 @@ footer .copyright {
 	.menu-uno ul {
 	    margin-top: 20px;
 	}
+	footer .copyright {
+	    font-size: x-large;
+	}
 }
 
 
@@ -250,10 +264,17 @@ footer .copyright {
 	nav .menu-uno .navbar-right, nav .menu-dos ul.navbar-right {
 	    font-size: x-large;
 	}
+	footer .copyright {
+	    font-size: xx-large;
+	}
+
 }
 
 @media only screen and (min-width: 2339px){ 
 	nav .menu-uno .navbar-right, nav .menu-dos ul.navbar-right {
+	    font-size: xx-large;
+	}
+	footer .copyright {
 	    font-size: xx-large;
 	}
 }
