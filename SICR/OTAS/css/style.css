@@ -65,7 +65,7 @@ h1{
     margin-right: 10%;
 }
 
-nav div.navbar-header a, nav ul.navbar-right > li > a {
+nav .menu-uno div.navbar-header a, nav ul.navbar-right > li > a[class=linknormal] {
     color: #fff !important;
     text-transform: uppercase;
 }
@@ -73,11 +73,6 @@ nav div.navbar-header a, nav ul.navbar-right > li > a {
 nav .menu-dos ul.navbar-right > li > a {
     color: #fcb526 !important;
     text-transform: inherit !important;
-}
-
-.pipes {
-  color:#fcb526;
-  /*display: none;*/
 }
 
 .navbar-nav {position: relative; }
@@ -145,6 +140,13 @@ footer .copyright {
     float: right;
     right: 0;
     color: rgba(255, 255, 255, 0.44);
+    margin-right: 30px;
+    margin-bottom: 20px;
+}
+
+.pipes, .pipes a, .pipes a:hover {
+  color:#fcb526 !important;
+  /*display: none;*/
 }
 /***********Media Queries************/
 
