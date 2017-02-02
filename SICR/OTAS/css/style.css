@@ -138,6 +138,14 @@ nav .menu-uno .navbar-right, nav .menu-dos ul.navbar-right {
 .menu-uno ul {
     margin-top: 30px;
 }
+
+footer .copyright {
+    position: fixed;
+    bottom: 0;
+    float: right;
+    right: 0;
+    color: rgba(255, 255, 255, 0.44);
+}
 /***********Media Queries************/
 
 @media only screen and (max-width: 479px) { 
@@ -236,3 +244,14 @@ nav .menu-uno .navbar-right, nav .menu-dos ul.navbar-right {
 
 
 
+@media only screen and (min-width: 1883px) and (max-width: 2338px){ 
+	nav .menu-uno .navbar-right, nav .menu-dos ul.navbar-right {
+	    font-size: x-large;
+	}
+}
+
+@media only screen and (min-width: 2339px){ 
+	nav .menu-uno .navbar-right, nav .menu-dos ul.navbar-right {
+	    font-size: xx-large;
+	}
+}
