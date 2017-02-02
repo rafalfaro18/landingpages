@@ -155,6 +155,8 @@ footer .copyright {
 nav .in ul.navbar-right > li > a {
     margin-top: 5px;
     margin-bottom: 5px;
+    -moz-transition: margin 0.05s;
+	-o-transition: margin 0.05s;
     -webkit-transition: margin 0.05s;
   	transition: margin 0.05s;
 }
@@ -200,6 +202,8 @@ nav .in ul.navbar-right > li > a {
 	    margin-top: 1.5px;
 	    margin-bottom: 1.5px;
 	    -webkit-transition: margin 0.05s;
+	    -moz-transition: margin 0.05s;
+	    -o-transition: margin 0.05s;
   		transition: margin 0.05s;
 	}
 
