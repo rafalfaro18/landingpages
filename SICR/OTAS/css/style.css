@@ -297,3 +297,10 @@ transition: margin 0.05s;
 	    font-size: xx-large;
 	}
 }
+
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {  
+   /* IE10+ specific styles go here */  
+   .main-content h1{
+   	margin-top:40%;
+   }
+}
