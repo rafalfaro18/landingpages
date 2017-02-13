@@ -138,22 +138,17 @@ nav .menu-uno .navbar-right, nav .menu-dos ul.navbar-right {
     margin-top: 30px;
 }
 
-footer .copyright {
-    position: fixed;
-    bottom: 0;
-    float: right;
-    right: 0;
-    color: rgba(255, 255, 255, 0.8);
-    margin-right: 30px;
-    margin-bottom: 20px;
-}
-
 .pipes, .pipes a, .pipes a:hover {
   color:#fcb526 !important;
   /*display: none;*/
 }
 footer .copyright {
 	font-size: xx-large;
+	margin-right: 30px;
+}
+footer .phone {
+	font-size: large;
+	margin-left: 30px;
 }
 
 nav .in ul.navbar-right > li > a {
@@ -163,6 +158,14 @@ nav .in ul.navbar-right > li > a {
 transition: margin 0.05s;
 -moz-transition: margin 0.05s;
 -o-transition: margin 0.05s;
+}
+
+footer {
+	color: rgba(255, 255, 255, 0.8);
+	bottom: 0;
+    position: fixed;
+    width: 100%;
+    margin-bottom: 20px;
 }
 /***********Media Queries************/
 
@@ -201,6 +204,11 @@ transition: margin 0.05s;
 	}
 	footer .copyright {
 	    font-size: medium;
+	    margin-right: 0;
+	}
+		footer .phone {
+		font-size: small;
+		margin-left: 0;
 	}
 	nav .in ul.navbar-right > li > a {
 	    margin-top: 1.5px;
@@ -209,6 +217,9 @@ transition: margin 0.05s;
   		transition: margin 0.05s;
   		-moz-transition: margin 0.05s;
         -o-transition: margin 0.05s;
+	}
+	footer{
+		margin-bottom: 0;
 	}
 
 }
@@ -248,8 +259,15 @@ transition: margin 0.05s;
 	    margin-top: 0;
 	}
 	footer .copyright {
-	    font-size: initial;
+	    font-size: medium;
 	}
+	footer .phone {
+		font-size: small;
+	}
+	footer{
+		margin-bottom: 0;
+	}
+
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1232px) { 
@@ -275,6 +293,9 @@ transition: margin 0.05s;
 	footer .copyright {
 	    font-size: x-large;
 	}
+	footer .phone {
+	font-size: medium;
+}
 }
 
 
@@ -286,6 +307,9 @@ transition: margin 0.05s;
 	footer .copyright {
 	    font-size: xx-large;
 	}
+	footer .phone {
+		font-size: large;
+	}
 
 }
 
@@ -296,6 +320,9 @@ transition: margin 0.05s;
 	footer .copyright {
 	    font-size: xx-large;
 	}
+	footer .phone {
+	font-size: x-large;
+}
 }
 
 @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {  
