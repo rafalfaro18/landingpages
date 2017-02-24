@@ -1,0 +1,157 @@
+body,html{
+	font-family: 'ronnia' !important;
+}
+body{
+    background-image: url(../img/condominio.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: initial;
+}
+.back-g{
+    vertical-align: middle;
+}
+.full-form {
+    padding: 20px 50px;
+    max-width: 400px;
+    margin: auto;
+    background: rgba(0, 0, 0, 0.44);
+}
+.cta {
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    margin: 100px 0px 0px 0px;
+    font-family: 'brisas';
+}
+.cta h1 {
+    font-size: 60px;
+    font-family: ronnia;
+}
+
+.label-form {
+    width: 100%;
+    /* background: red; */
+    text-align: center;
+    padding: 20px 5px;
+    color: #fff;
+    font-size: 20px;
+}
+.thanks {
+    color: #fff;
+    font-size: 19px;
+    text-align: center;
+}
+@font-face{
+	font-family:"brisas";
+	src:url("../fonts/Brisa Alternates.otf");
+}
+@font-face{
+	font-family: "ronnia";
+	src:url("../fonts/RonniaReg.otf");
+}
+label{
+	font-size: 18px;
+	color: #fff;
+	font-weight: lighter;
+}
+#duedate .ui-datepicker-calendar {
+    display: none;
+    }
+    .logo.pull-right {
+    position: absolute;
+    right: 0;
+}
+input.btn.btn-block {
+    background-color: #aa0b38;
+    color: #f6b504;
+    font-size: 20px;
+    font-weight: lighter;
+
+}
+.my-error-class {
+    color:#FF0101;
+    font-size: 15px;
+}
+.my-valid-class {
+    color:#09C300;
+    font-size: 15px;
+}
+#total-hide{
+	display: none;
+}
+option:disabled{
+    color:#D7D7DB;
+}
+.ui-datepicker .ui-datepicker-title select {
+    color: #3f3731;
+}
+.ui-widget-header {
+    border: 1px solid #f8b905;
+    background: #f8b905 !important;
+    background-image: none !important;
+    color: #ffffff;
+    font-weight: bold;
+}
+.stay-banner img {
+    margin-top: -18px;
+}
+.stay-banner {
+    width: 100%;
+    max-width: 350px;
+    margin: auto;
+    margin-bottom: 100px;
+}
+.posicion-logos img {
+    width: 100%;
+}
+.posicion-logos {
+    width: 100%;
+    max-width: 240px;
+    margin: auto;
+    padding: 30px 30px 0px 30px;
+    text-align: center;
+    color: #fff;
+    font-size: 17px;
+    font-weight: lighter;
+}
+.cta h2 {
+    font-size: 50px;
+    margin-bottom: 35px;
+}
+.thanks img {
+    max-width: 43px;
+    padding: 15px 0;
+}
+.btn-web {
+    background: #f5b700;
+    padding: 10px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: lighter;
+    margin: 20px 0;
+}
+ @media screen and (max-width:993px){
+ 	.col-md-6 {
+    padding: 0;
+    margin-bottom: 15px;
+}
+.stay-banner {
+    margin-bottom: -20px;
+}
+.logo.pull-right {
+    position: relative;
+}
+.full-form {
+    padding: 20px 26px;
+}
+ }
+ @media screen and (max-width:800px){
+     .cta h1 {
+    font-size: 50px;
+    line-height: 85%;
+}
+.cta h2 {
+    font-size: 40px;
+}
+ }

@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Stay in Costa Rica</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/custom.css" rel="stylesheet">
+     <link href="https://code.jquery.com/ui/1.12.1/themes/humanity/jquery-ui.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+<div class="col-md-12">
+    <div class="stay-banner">
+        <img src="img/stay-banner.jpg" class="img-responsive">
+    </div>
+</div>
+    <div class="container">
+       <div class="back-g">
+       <div class="cta">
+       <h1>Explore the coffee world,<br>surrounded by nature and luxury</h1>
+       <h2>Unique Country, Unique Coffee, Unique Service</h2>
+       </div>
+        <div class="label-form">
+        <p>Fill out the form and get a special price<br>for your reservation</p>
+            </div>
+            <div class="full-form">
+           <div class="thanks" style="display: none;">
+                <p>Thanks for your reservation.</p>
+<p>We will contact you shortly with the final details. </p>
+<p>Let us know if you need any help. </p>
+<div class="social-icons">
+    <a href="http://www.facebook.com/stayincr"><img src="img/facebook.png"></a>
+    <a href="https://www.instagram.com/stayincostarica/"><img src="img/instagram.png"></a>
+    <a href="http://www.pinterest.com/sicr/"><img src="img/pinterest.png"></a>
+    <a href="http://twitter.com/stayincostarica"><img src="img/twitter.png"></a>
+    <a href="http://www.youtube.com/channel/UCiICd-MdvBuDuReFyDo00Xg"><img src="img/youtube.png"></a>
+    <a href="https://plus.google.com/+Stayincostarica/posts"><img src="img/google.png"></a>
+</div>
+<p>Toll free: 1-866-439-5922</p>
+<p>Phone: 011(506) 2661-9300</p>
+<p>Want to know more on how to better enjoy your time here in Costa Rica?</p>
+<a class="btn-web" href="http://stayincostarica.com">Visit Our Website</a>
+           </div>
+                <form class="form-horizontal" id="form-info">
+               <div class="bk-transparent">
+                    <!-- personal information block -->
+                    <div class="form-group">
+                        <label>Personal Information</label>
+                        <input type="text" id="name" name="name" class="form-control" placeholder="Full name">
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" name="email" class="form-control" placeholder="Email">
+                    </div>
+                    <div class="form-group">
+                        <input type="text" id="phone" name="phone" class="form-control" placeholder="Phone">
+                    </div>
+                    <!-- /personal information block -->
+                    
+                     <!-- Trip Information block -->
+                     <div class="form-group">
+                                             <label>Trip Information</label>
+                        <select class="form-control" id="condo" name="condo">
+                            <option disabled selected>Type of Accommodation</option>
+                            <option value="1 Bedroom Luxury">1 Bedroom Luxury</option>
+                            <option value="2 Bedroom Luxury">2 Bedroom Luxury</option>
+                            <option value="3 Bedroom Luxury">3 Bedroom Luxury</option>                          
+                        </select>
+                    </div>
+                    <div class="form-group">
+
+                        <select class="form-control" id="npeople" name="npeople" disabled>
+                            <option disabled selected>Number of people</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                        </select>
+                    </div>
+                     <div class="form-group">
+                        <select class="form-control" id="nnight" name="nnight">
+                            <option value="4" disabled selected>Number of night = 4</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group" id="total-hide">
+                        <input type="text" class="form-control" id="total" name="total" readonly>
+                    </div>
+                    
+                     <div class="form-group">
+                     <div class="col-md-6" style="padding-left: 0">
+                    <input type="text" class="form-control" id="startDatePicker" name="startDatePicker" placeholder="Check in">
+                    </div>
+                         <div class="col-md-6" style="padding-right: 0">
+                     <input type="text" class="form-control"
+                      id="endDatePicker" name="endDatePicker" placeholder="Check out">
+                      </div>
+                      </div>
+                    
+                    
+                    <!-- /Trip Information block -->
+
+                    <!-- Card Information block -->
+                    <div class="form-group">
+                        <div class="col-md-12"><label>Card Information</label></div>
+                        <div class="col-md-6" style="padding-left: 0">
+
+                        <input type="tel" id="cnumber" name="cnumber" class="form-control" placeholder="Card Number" maxlength="19" pattern="[0-9]{13,16}">
+                   </div>
+                    <div class="col-md-6" style="padding-right: 0">
+                        <input id="duedate" name="duedate" class="form-control" placeholder="Due Date">
+                        </div>
+                    </div>
+                    <!-- /personal information block -->
+                    <div class="form-group">
+                        <input type="submit" name="submit" class="btn btn-block" value="Make Reservation">
+                    </div>
+                    </div>
+                </form>
+           </div>
+       </div>
+       <div class="col-md-12">
+            <div class="posicion-logos">
+                <img src="img/logo_sinter.png">
+                <p>November 9-12, 2017</p>
+            </div>
+       </div>
+    </div>
+    <!-- /.container -->
+    <script src="js/jquery-3.1.1.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script  type="text/javascript" src=" http://ajax.aspnetcdn.com/ajax/jquery.validate/1.15.0/jquery.validate.min.js"></script>
+    <script>
+
+  $("#startDatePicker").datepicker({ 
+    dateFormat: 'yy-mm-dd',
+    minDate: new Date(),
+
+    onSelect: function(date){
+
+        var selectedDate = new Date(date);
+        var msecsInADay = 86400000;
+        var endDate = new Date(selectedDate.getTime() + msecsInADay);
+
+        $("#endDatePicker").datepicker( "option", "minDate", endDate );
+        $("#endDatePicker").datepicker( "option", "maxDate" );
+    }
+});
+
+ $('#duedate').datepicker( {
+        changeMonth: true,
+        changeYear: true,
+        showButtonPanel: true,
+        dateFormat: 'MM yy',
+        onClose: function(dateText, inst) { 
+            $(this).datepicker('setDate', new Date(inst.selectedYear, inst.selectedMonth, 1));
+        }
+    });
+
+ $("#duedate").focus(function () {
+        $(".ui-datepicker-calendar").hide();
+        $("#ui-datepicker-div").position({
+            my: "center top",
+            at: "center bottom",
+            of: $(this)
+        });
+    });
+
+
+$("#endDatePicker").datepicker({ 
+    dateFormat: 'yy-mm-dd',
+});
+
+/*  -----  calculo -----  */
+
+var oneroom = 1037.20;
+var oneroom2people = 612.60;
+
+var tworoom2people = 686.90;
+var tworoom3people = 472.26;
+var tworoom4people = 387.45;
+
+var threeroom3people = 585.20;
+var threeroom4people = 460.90;
+var threeroom5people = 386.32;
+var threeroom6people = 336.60;
+
+var condos;
+var total = 0;
+
+$("#condo").change(function(){
+    $('#npeople').prop('disabled',false);
+
+condos = $('#condo').val();
+switch(true){
+
+case (condos == "1 Bedroom Luxury"):
+ $("#npeople option[value=" + 6 + "]").prop('disabled', true);
+ $("#npeople option[value=" + 5 + "]").prop('disabled', true);
+ $("#npeople option[value=" + 4 + "]").prop('disabled', true);
+ $("#npeople option[value=" + 3 + "]").prop('disabled', true);
+ $("#npeople option[value=" + 2 + "]").prop('disabled', false);
+ $("#npeople option[value=" + 1 + "]").prop('disabled', false);
+
+    break;
+
+    case (condos == "2 Bedroom Luxury"):
+ $("#npeople option[value=" + 6 + "]").prop('disabled', true);
+ $("#npeople option[value=" + 5 + "]").prop('disabled', true);
+ $("#npeople option[value=" + 4 + "]").prop('disabled', false);
+ $("#npeople option[value=" + 3 + "]").prop('disabled', false);
+ $("#npeople option[value=" + 2 + "]").prop('disabled', false);
+ $("#npeople option[value=" + 1 + "]").prop('disabled', true);
+    break;
+
+ case (condos == "3 Bedroom Luxury"):
+ $("#npeople option[value=" + 6 + "]").prop('disabled', false);
+ $("#npeople option[value=" + 5 + "]").prop('disabled', false);
+ $("#npeople option[value=" + 4 + "]").prop('disabled', false);
+ $("#npeople option[value=" + 3 + "]").prop('disabled', false);
+ $("#npeople option[value=" + 2 + "]").prop('disabled', true);
+ $("#npeople option[value=" + 1 + "]").prop('disabled', true);
+
+    break;
+}
+});
+
+$("#npeople").change(function(){
+    
+    var cont = $('#npeople').val();
+
+if (condos == "1 Bedroom Luxury" & cont == 1){
+    total = oneroom;
+    }else if (condos == "1 Bedroom Luxury") {
+        total = oneroom2people * cont;
+
+    }
+
+
+if (condos == "2 Bedroom Luxury" & cont == 2){
+        total = tworoom2people * cont;
+    
+    }else if (condos == "2 Bedroom Luxury" & cont == 3) {
+        total = tworoom3people * cont;
+    
+    }else if (condos == "2 Bedroom Luxury" & cont == 4) {
+        total = tworoom4people * cont;
+    }
+
+
+if (condos == "3 Bedroom Luxury" & cont == 3) {
+    total = threeroom3people * cont;
+
+}else if (condos == "3 Bedroom Luxury" & cont == 4) {
+    total = threeroom4people * cont;
+
+}else if (condos == "3 Bedroom Luxury" & cont == 5) {
+    total = threeroom5people * cont;
+
+}else if (condos == "3 Bedroom Luxury" & cont == 6) {
+    total = threeroom6people * cont;
+
+}
+
+$('#total-hide').show('slow');
+$('#total-hide input').val("$"+total.toFixed(2));
+});
+
+
+$('#cnumber').on('keyup', function(e){
+    var val = $(this).val();
+    var newval = '';
+    val = val.replace(/\s/g, '');
+    for(var i=0; i < val.length; i++) {
+        if(i%4 == 0 && i > 0) newval = newval.concat(' ');
+        newval = newval.concat(val[i]);
+    }
+    $(this).val(newval);
+})  
+
+//ENVIAR FORM
+$(document).ready(function () {
+$("#form-info").validate({
+ignore: ":hidden",
+errorClass: "my-error-class",
+validClass: "my-valid-class",
+rules: {
+ name: {
+     required: true,
+     minlength: 3
+ },
+ email: {
+     required: true,
+     minlength: 3
+ },
+ npeople: {
+     required: true,
+ },
+ startDatePicker: {
+     required: true,
+ },
+
+ endDatePicker: {
+     required: true,
+ },
+
+ cnumber: {
+     required: true,
+     minlength: 19
+ },
+ duedate: {
+     required: true,
+ },
+ condo: {
+     required: true,
+ },
+},
+submitHandler: function (form) {
+ $.ajax({
+     type: "POST",
+     url: "sendercat.php",
+     data: $(form).serialize(),
+     success: function () {
+         $(form).html("<div id='message'></div>");
+         $('#message').html("<h2>Your request is on the way!</h2>")
+             .append("<p>someone</p>")
+             .hide()
+     }
+ });
+ $('.thanks').show('slow');
+ return false; // required to block normal submit since you used ajax
+}
+});
+});
+  </script>
+</body>
+</html>
