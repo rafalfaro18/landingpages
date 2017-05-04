@@ -5,17 +5,7 @@
    ========================================================================== */
 
 
-.btn-primary {
-	color: #fff !important;
-    background-color: #faae3b !important;
-    border-color: #f9a11b !important;
-}
 
-.btn-primary:hover, .btn-primary:active, .btn-primary:visited {
-    color: #fff !important;
-    background-color: #0eaa9d !important;
-    border-color: #0eaa9d !important;
-}
 
 a {
     color: #0eaa9d !important;
@@ -25,7 +15,17 @@ a:hover, a:focus {
     color: #faae3b !important;
 }
 
+.btn-primary {
+	color: #fff !important;
+    background-color: #faae3b !important;
+    border-color: #f9a11b !important;
+}
 
+.btn-primary:hover {
+	color: #fff !important;
+    background-color: #0eaa9d !important;
+    border-color: #0eaa9d !important;
+}
 
 
 
