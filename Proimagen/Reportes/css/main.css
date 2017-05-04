@@ -16,7 +16,9 @@ a {
     color: #0eaa9d;
 }
 
-
+a:hover, a:focus {
+    color: #faae3b;
+}
 
 
 
