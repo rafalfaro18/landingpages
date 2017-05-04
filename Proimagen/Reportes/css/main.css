@@ -6,21 +6,21 @@
 
 
 .btn-primary {
-    background-color: #faae3b;
-    border-color: #f9a11b;
+    background-color: #faae3b !important;
+    border-color: #f9a11b !important;
 }
 
 .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
-    background-color: #0eaa9d;
-    border-color: #0eaa9d;
+    background-color: #0eaa9d !important;
+    border-color: #0eaa9d !important;
 }
 
 a {
-    color: #0eaa9d;
+    color: #0eaa9d !important;
 }
 
 a:hover, a:focus {
-    color: #faae3b;
+    color: #faae3b !important;
 }
 
 
