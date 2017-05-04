@@ -10,7 +10,10 @@
     border-color: #f9a11b;
 }
 
-
+.btn-primary:hover {
+    background-color: #0eaa9d;
+    border-color: #0eaa9d;
+}
 
 a {
     color: #0eaa9d;
