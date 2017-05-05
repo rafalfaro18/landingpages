@@ -45,13 +45,19 @@ var hoverStyle = {
 for(var regionName in regions) {
     (function (region) {
         region.attr(style);
-
+		var x='';
+		if(regionName=='bz1'||regionName=='bz2'){x="Belice";}else if(regionName=='gt'){x="Guatemala";} else if(regionName=='pa1'||regionName=='pa2'||regionName=='pa3'||regionName=='pa4'||regionName=='pa5'){x="Panama";} else if(regionName=='cr'){x="Costa Rica";} else if(regionName=='sv'){x="El Salvador";} else if(regionName=='hn1'||regionName=='hn2'){x="Honduras";} else if(regionName=='ni'){x="Nicaragua";}
+		//console.log(x);
         region[0].addEventListener("mouseover", function() {
             region.animate(hoverStyle, animationSpeed);
+            //console.log(x);
+            $('#pais').html(x);
+
         }, true);
 
         region[0].addEventListener("mouseout", function() {
           region.animate(style, animationSpeed);
+          $('#pais').html('<br>');
         }, true);
 
     })(regions[regionName]);
